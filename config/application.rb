@@ -6,8 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-#module FirstApp
- # class Application < Rails::Application
+module FirstApp
+  class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -21,6 +21,6 @@ Bundler.require(*Rails.groups)
     # config.i18n.default_locale = :de
 
     # For Heroku
-    config.assets.initialize_on_precompile = false
   end
 end
+config.assets.initialize_on_precompile = false
