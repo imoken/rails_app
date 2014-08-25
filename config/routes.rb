@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :microposts
+
+  resources :users
+
   get 'costs/index'
   post 'costs/index'
   post 'costs/input'
