@@ -45,3 +45,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#DBを使わない時に、モデルでバリデーションを処理
+gem 'activemodel'
+
