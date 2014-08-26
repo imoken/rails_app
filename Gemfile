@@ -48,3 +48,15 @@ gem 'spring',        group: :development
 #DBを使わない時に、モデルでバリデーションを処理
 gem 'activemodel'
 
+group :development do
+gem 'rspec-rails'
+end
+
+group :test do
+gem 'rspec'
+end
+
+group :test do
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '2.1.0'
+end
