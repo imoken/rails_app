@@ -10,6 +10,9 @@ group :development do
   gem 'sqlite3', groups: %w(test development), require: false
 end
 
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+
 gem 'pg', groups: %w(production), require: false
 
 # Use SCSS for stylesheets
